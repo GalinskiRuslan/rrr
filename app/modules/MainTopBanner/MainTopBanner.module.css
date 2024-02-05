@@ -1,0 +1,167 @@
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+  width: 100%;
+  overflow: hidden;
+  background: url("/forest-landscape 1.png") no-repeat;
+  height: 100vh;
+  position: relative;
+  top: 0;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+  background: url("/Group 6.png") no-repeat;
+  background-size: contain;
+  display: flex;
+  gap: 50px;
+  padding: 80px;
+  justify-content: space-between;
+}
+.logos {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+  position: relative;
+}
+.line::after {
+  content: " ";
+  position: absolute;
+  top: 20px;
+  left: 320px;
+  display: block;
+  width: 4px;
+  height: 80px;
+  background-color: #154686;
+}
+.contentText {
+  background-color: #deecff;
+  padding: 30px 20px;
+  margin-top: 40px;
+  position: relative;
+}
+.firstText {
+  color: var(--main-text-color);
+  font-size: 24px;
+  line-height: 32px;
+}
+.secText {
+  color: var(--main-text-color);
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+.treeText {
+  display: flex;
+  gap: 60px;
+  font-size: 32px;
+  color: var(--main-gold-text-color);
+  font-weight: 600;
+  padding-top: 30px;
+}
+.fourText {
+  color: var(--main-text-color);
+  font-size: 24px;
+  line-height: 32px;
+  margin-top: 30px;
+}
+.arrowBot {
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  width: 100%;
+}
+.mobileImage1 {
+  display: none;
+}
+.mobileImg {
+  width: 140px;
+  height: 140px;
+  display: none;
+}
+@media screen and (max-width: 1600px) {
+  .wrapper {
+    padding: 30px;
+  }
+}
+@media screen and (max-width: 1480px) {
+  .container {
+    height: 100%;
+  }
+  .rightContent {
+    display: none;
+  }
+  .rightContent img {
+    width: 140px;
+    height: 140px;
+  }
+
+  .wrapper {
+    flex-direction: column;
+  }
+  .contentText {
+    max-width: 375px;
+    margin: 0 auto;
+  }
+  .mobileImage1 {
+    width: 120px;
+    height: 120px;
+    display: block;
+    position: absolute;
+    opacity: 0.6;
+    top: 20%;
+  }
+  .firstText {
+    color: var(--main-text-color);
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .secText {
+    color: var(--main-text-color);
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 600;
+    margin-top: 15px;
+  }
+  .treeText {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 18px;
+    color: var(--main-gold-text-color);
+    font-weight: 600;
+    padding: 25px 0;
+  }
+  .fourText {
+    color: var(--main-text-color);
+    font-size: 16px;
+    line-height: 32px;
+    margin-top: 15px;
+  }
+  .line::after {
+    display: none;
+  }
+  .logos {
+    display: flex;
+    justify-content: center;
+  }
+  .logo {
+    width: 148px;
+    height: 63px;
+  }
+  .logo2 {
+    width: 148px;
+    height: 58px;
+  }
+  .mobileImg {
+    display: block;
+  }
+  .list {
+    display: flex;
+    justify-content: space-between;
+  }
+  .list ul {
+    margin-left: 20px;
+  }
+}
