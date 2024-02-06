@@ -11,6 +11,7 @@ export const EmpathyBlock = () => {
                 <div className={cl.left}>
                     <p className={cl.title}>{t("empathy")}</p>
                     <p className={cl.text}>{t("aboutEmphaty")}</p>
+                    <audio style={{ margin: "40px 0" }} controls src="/c826342ffb61cf0-1.mp3"></audio>
                 </div>
                 <div className={cl.right}>
                     <svg className={cl.firstHart} width="243" height="240" viewBox="0 0 243 240" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -4,7 +4,8 @@
   width: 100%;
   overflow: hidden;
   background: url("/forest-landscape 1.png") no-repeat;
-  height: 100vh;
+  min-height: 100vh;
+  height: 100%;
   position: relative;
   top: 0;
 }

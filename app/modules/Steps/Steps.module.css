@@ -1,0 +1,129 @@
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  padding: 80px;
+}
+.backImg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+}
+.title {
+  position: relative;
+  z-index: 100;
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 166px;
+}
+.content {
+  display: flex;
+  gap: 120px;
+  position: relative;
+  z-index: 100;
+  justify-content: space-between;
+}
+.itemTitle {
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--main-gold-text-color);
+}
+.item::before {
+  content: " ";
+  position: absolute;
+  display: block;
+  width: 13px;
+  height: 165px;
+  background: var(--main-gold-text-color);
+  left: 0;
+}
+.item {
+  display: flex;
+  margin: 30px 0;
+  gap: 15px;
+  padding-left: 30px;
+}
+.text {
+  font-size: 32px;
+  font-weight: 500;
+  margin: 10px 0;
+  color: #ffffff;
+}
+.right {
+  max-width: 700px;
+  margin: 0 auto;
+  position: relative;
+  background: #deecff;
+  padding: 30px 20px;
+  border-radius: 24px 24px 0 0;
+  margin-bottom: 300px;
+}
+.bottomLine {
+  position: absolute;
+  bottom: -50px;
+  width: 100%;
+  left: 0;
+}
+.right p {
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--main-text-color);
+}
+.button {
+  padding: 20px 80px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  color: var(--main-gold-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  transition: 0.5s;
+}
+.button:hover {
+  background: var(--main-gold-text-color);
+  color: var(--main-text-color);
+  transition: 0.5s;
+}
+@media screen and (max-width: 1480px) {
+  .container {
+    padding: 30px;
+  }
+  .backImg {
+    margin-left: -500px;
+    filter: blur(15px);
+  }
+  .content {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+  .item::before {
+    display: none;
+  }
+  .right {
+    margin-bottom: 0;
+  }
+  .title {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .itemTitle {
+    font-size: 20px;
+  }
+  .text {
+    font-size: 16px;
+  }
+  .button {
+    text-align: center;
+  }
+  .right p {
+    font-size: 12px;
+  }
+}

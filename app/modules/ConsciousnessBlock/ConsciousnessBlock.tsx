@@ -21,6 +21,7 @@ export const ConsciousnessBlock = () => {
                     </svg>
                     <p className={cl.title}>{t("consciousness")}</p>
                     <p className={cl.text}>{t("consciousnessText")}</p>
+                    <audio style={{ margin: "40px 0"}} controls src="/b397eba70529f50.mp3"></audio>
                 </div>
                 <div className={cl.right}><Image src={head} alt='mint' /><Image className={cl.atoms} src={atoms} alt='atoms' /></div>
             </div>

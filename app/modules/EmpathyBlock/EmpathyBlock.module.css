@@ -124,3 +124,31 @@
     animation-timing-function: ease-out;
   }
 }
+@media screen and (max-width: 1480px) {
+  .container {
+    padding: 30px;
+  }
+  .title {
+    font-size: 40px;
+  }
+  .text {
+    font-size: 16px;
+  }
+  .wrapper {
+    flex-direction: column;
+  }
+  .right {
+    max-width: 420px;
+    margin: 0 auto;
+  }
+  .right img {
+    width: 100%;
+    height: auto;
+  }
+  .firstHart {
+    width: 60px;
+  }
+  .secHart {
+    width: 60px;
+  }
+}

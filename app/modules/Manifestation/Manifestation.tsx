@@ -11,6 +11,7 @@ export const Manifestation = () => {
                 <div className={cl.left}>
                     <p className={cl.title}>{t('manifestation')}</p>
                     <p className={cl.text}>{t('aboutManifestation')}</p>
+                    <audio style={{ margin: "40px 0" }} controls src="/Edvin Marton - C'est La Vie (megapesni.fm).mp3"></audio>
                 </div>
                 <div className={cl.right}><Image alt='image' src={src} /></div>
             </div>
