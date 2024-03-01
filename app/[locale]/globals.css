@@ -30,11 +30,19 @@ h1,
 h2,
 h3,
 h4,
-p,
+h5,
+h6 p,
 figure,
 figcaption,
 blockquote,
 dl,
 dd {
+  margin: 0;
+  padding: 0;
+}
+.no-scroll {
+  overflow: hidden;
+}
+p {
   margin: 0;
 }

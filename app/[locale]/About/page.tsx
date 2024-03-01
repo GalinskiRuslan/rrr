@@ -1,15 +1,9 @@
-import { Header } from '@/app/components/Header/Header'
-import cl from './style.module.css'
-import { Mission } from '@/app/modules/Mission/Mission'
-import { Interesting } from '@/app/modules/Interesting/Interesting'
-import { Steps } from '@/app/modules/Steps/Steps'
+import { TopBanner } from '@/app/modules/About/TopBanner/TopBanner'
 
-export default function About() {
+export default function about() {
     return (
         <>
-            <Mission />
-            <Interesting />
-            <Steps />
+            <TopBanner />
         </>
     )
 }

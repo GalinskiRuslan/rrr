@@ -1,27 +1,44 @@
 {
-  "main": {
-    "title": "en",
-    "firstText": "The Rotary Club of Almaty, founded in 1995, has the honor of being the first Rotary Club in Kazakhstan. Being part of Rotary International, the Almaty club adheres to one of the global missions of the organization aimed at supporting the sphere of education and cultural development, the club presents to your attention Project 2024 «Stars of Rotary»",
-    "secondText": "The Rotary Club of Almaty is organizing an international competition of talented children performers for:",
-    "violin": "violin",
-    "piano": "piano",
-    "violoncello": "violoncello",
-    "treeText": "Participation in this competition is an unforgettable experience and a source of inspiration for the younger generation from 7-12 years old, opening up new perspectives and horizons. The cultural capital of Kazakhstan, Almaty, was chosen as the venue, where the final of the competition will take place from June 25 to July 1, 2024",
-    "conceptTitle": "COMPETITION CONCEPT",
-    "conceptText": "The purpose of the event is to reflect the importance of music for culture and the future",
-    "conceptList": "",
-    "conceptList1": "",
-    "conceptList2": "",
-    "conceptbottomText": "",
-    "consciousness": "consciousness",
-    "empathy": "empathy",
-    "manifestation": "manifestation",
-    "consciousnessText": "Качество мозга ребенка и его мышление — это сложный процесс, где музыка помогает формировать новые нейронные связи и СОЗНАНИЕ. В течении всех месяцев до начала конкурса в рамках проекта будут организованы подкасты на youtube канале нашего конкурса с участием известных психологов, инфлюенсеров общественного мнения, ярких личностей и музыкантов (членов жюри) о влияние музыки на мозг.",
-    "aboutEmphaty": "Вторая важная часть— это чувствование, способность к эмпатии, к тонкому восприятию мира, способность видеть и создавать красивое. Мы приглашаем всех желающих и детей с органичными возможностями послушать классическую музыку в особой атмосфере на разных площадках города Алматы, развивая ЭМПАТИЮ",
-    "aboutManifestation": "Третья часть смысловой составляющей мероприятия – ДЕЙСТВИЕ. Конкурс и есть действие как ПРОЯВЛЕНИЕ. Дети могут выразить свое отношение к Миру через свои выступления на аудиторию, они перестают бояться публичности. Они могут выражать себя и становиться незаурядными личностями"
-  },
   "header": {
-    "about": "О нас",
-    "home": "Главная"
+    "about": "Concept",
+    "home": "Main",
+    "contestant": "About the Competition",
+    "application": "Как подать заявку",
+    "applicationA": "Application form 7-9 years (group А)",
+    "applicationB": "Application form 10-12 лет (group Б)",
+    "jury": "Jury",
+    "schedule": "Schedule",
+    "support": "Partnership",
+    "piano": "Piano",
+    "cello": "Cello",
+    "violin": "Violin"
+  },
+  "mainBanner": {
+    "title": "International Music Contest for Talented Children",
+    "music": "Music rotates the World!",
+    "rotary": "Rotary club Almaty Kazakhstan",
+    "district": "District 2430",
+    "button": "Movie about Rotary Club >"
+  },
+  "conceptMain": {
+    "firstText": "In the modern world, where digital technologies and gadgets take up more and more time, the study of music and art begins to play a special role. This helps develop a child's creative abilities, imagination, and improve cognitive functions such as memory, attention, and thinking.",
+    "secText": "Art and music play an important role in a child's life!"
+  },
+  "stagesBlock": {
+    "title": "Contest Stages",
+    "regulation": "Contest regulation",
+    "applications": "Applications",
+    "group1": "from groups aged 7 to 9 will be accepted until",
+    "data1": "March 10, 2024.",
+    "about1": "The contest consists of a single round conducted online.",
+    "group2": "from groups aged 10 to 12 will be accepted until",
+    "data2": "March 15, 2024. ",
+    "about2": " The contest consists of three rounds: the first conducted online, followed by the second and third rounds held live in Almaty.",
+    "stageBtn1": "Application for children aged 7 to 9 years",
+    "stageBtn2": "Application for children aged 10 to 12 years",
+    "stageForChild": "Children who have advanced through the qualifying round in the age group of 10 to 12 years old will come to participate in the finals of the contest in Almaty, accompanied by one legal guardian."
+  },
+  "concept2": {
+    "title": "The concept of this international event reflects an approach that encompasses three important and inherently significant phenomena:"
   }
 }

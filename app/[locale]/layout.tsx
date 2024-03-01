@@ -4,6 +4,7 @@ import "./globals.css";
 import { notFound } from 'next/navigation';
 import { NextIntlClientProvider } from "next-intl";
 import { Header } from "../components/Header/Header";
+import { Footer } from "../components/Footer/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,7 +22,6 @@ export default async function RootLayout({
 }>) {
 
   let messages;
-  /* const locale = useLocale(); */
   try {
     messages = (await import(`../../messages/${locale}.json`)).default;
   } catch (error) {
@@ -36,7 +36,12 @@ export default async function RootLayout({
     <NextIntlClientProvider locale={locale} messages={messages}>
       <html lang={locale}>
 
-        <body className={inter.className}>{children}</body>
+        <body className={inter.className}>
+          <Header />
+          {children}
+          <Footer />
+        </body>
+
       </html>
     </NextIntlClientProvider>
   );
